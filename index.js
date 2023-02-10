@@ -45,8 +45,8 @@ app.use('/bookingService', async (req, res, next) => {
 app.use('/bookingService', createProxyMiddleware({ target: 'http://localhost:3002', changeOrigin: true }));
 
 
-app.get('/api/v1/home', (req, res) => {
-    res.json({
+app.get('/home', (req, res) => {
+    return res.json({
         message: 'inside API gateway'
     })
 })
