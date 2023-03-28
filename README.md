@@ -1,5 +1,6 @@
 #API Gateway
-FRONT END -- MIDDLE END -- BACKEND
+
+##FRONT END -- MIDDLE END -- BACKEND
 
 - We need an intermediate layer between the client side and the microservices
 - This middle end helps in rate limiting, request transformation, message validation
