@@ -1,3 +1,4 @@
+#API Gateway
 FRONT END -- MIDDLE END -- BACKEND
 
 - We need an intermediate layer between the client side and the microservices
